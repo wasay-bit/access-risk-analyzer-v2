@@ -1,0 +1,15 @@
+{
+  "name": "access-risk-analyzer",
+  "version": "1.0.0",
+  "description": "Practice project: scores simulated access requests for risk and enforces review rules.",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "setup": "node scripts/setup-users.js",
+    "start": "node src/server.js",
+    "test": "node --test"
+  }
+}

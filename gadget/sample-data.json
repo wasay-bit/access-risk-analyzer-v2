@@ -1,0 +1,121 @@
+{
+  "note": "Snapshot of the Gadget's production data (all simulated). Read-only reference: the Gadget does not import this file. Copy any record into the Submit form to recreate it.",
+  "exportedAt": "2026-11-07T03:49:35.571Z",
+  "requests": [
+    {
+      "id": "AR-0001",
+      "requester": "priya.n",
+      "jobTitle": "Software Engineer",
+      "employmentType": "employee",
+      "requestedRoles": [
+        "repo-read",
+        "repo-write",
+        "staging-deploy"
+      ],
+      "durationDays": 30,
+      "lastLogin": "2026-11-05T02:57:21.824Z",
+      "approver": "dan.lee",
+      "justification": "Working on the checkout service for the Q4 release. Needs write access to the repo and staging deploys.",
+      "status": "pending",
+      "createdAt": "2026-11-07T02:57:21.824Z",
+      "approvals": []
+    },
+    {
+      "id": "AR-0002",
+      "requester": "marcus.t",
+      "jobTitle": "Support Analyst",
+      "employmentType": "employee",
+      "requestedRoles": [
+        "ticket-read",
+        "ticket-write",
+        "payroll-read"
+      ],
+      "durationDays": null,
+      "lastLogin": "2026-11-02T02:57:21.824Z",
+      "approver": "ana.r",
+      "justification": "Need access to help with tickets.",
+      "status": "pending",
+      "createdAt": "2026-11-07T02:57:21.824Z",
+      "approvals": []
+    },
+    {
+      "id": "AR-0003",
+      "requester": "chen.w",
+      "jobTitle": "Software Engineer",
+      "employmentType": "contractor",
+      "requestedRoles": [
+        "repo-write",
+        "prod-deploy",
+        "db-admin"
+      ],
+      "durationDays": 180,
+      "lastLogin": "2026-11-06T02:57:21.824Z",
+      "approver": "chen.w",
+      "justification": "Contract work on the data migration. Needs production access to run it.",
+      "status": "pending",
+      "createdAt": "2026-11-07T02:57:21.824Z",
+      "approvals": []
+    },
+    {
+      "id": "AR-0004",
+      "requester": "alex.k",
+      "jobTitle": "Finance Analyst",
+      "employmentType": "employee",
+      "requestedRoles": [
+        "erp-read",
+        "expense-approve"
+      ],
+      "durationDays": 60,
+      "lastLogin": "2026-04-21T02:57:21.824Z",
+      "approver": "rachel.s",
+      "justification": "Month-end close support for the Q4 reconciliations.",
+      "status": "pending",
+      "createdAt": "2026-11-07T02:57:21.824Z",
+      "approvals": []
+    },
+    {
+      "id": "AR-0005",
+      "requester": "sam.o",
+      "jobTitle": "Security Analyst",
+      "employmentType": "employee",
+      "requestedRoles": [
+        "siem-read",
+        "edr-admin",
+        "ticket-write"
+      ],
+      "durationDays": 14,
+      "lastLogin": "2026-11-07T02:57:21.824Z",
+      "approver": "lee.m",
+      "justification": "Investigating a suspected endpoint incident (INC-1042) and need to isolate hosts.",
+      "status": "pending",
+      "createdAt": "2026-11-07T02:57:21.824Z",
+      "approvals": []
+    },
+    {
+      "id": "AR-0006",
+      "requester": "jordan.p",
+      "jobTitle": "HR Specialist",
+      "employmentType": "employee",
+      "requestedRoles": [
+        "hris-read",
+        "hris-write",
+        "payroll-read"
+      ],
+      "durationDays": 60,
+      "lastLogin": "2026-11-04T02:57:21.824Z",
+      "approver": "maya.c",
+      "justification": "Covering onboarding for the new hire cohort, including payroll setup checks.",
+      "status": "pending",
+      "createdAt": "2026-11-07T02:57:21.824Z",
+      "approvals": []
+    }
+  ],
+  "audit": [
+    {
+      "at": "2026-11-07T02:57:21.824Z",
+      "actor": "system",
+      "action": "seed-demo",
+      "detail": "Loaded simulated requests"
+    }
+  ]
+}
